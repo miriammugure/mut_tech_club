@@ -46,6 +46,31 @@ function Tracks() {
             trackDescription="Cloud Engineering track students will learn to design, deploy, and manage scalable cloud infrastructures using AWS, Google Cloud, and Microsoft Azure. They will gain hands-on experience in cloud architecture, virtualization, containerization, and DevOps. By the end of the track, students will be skilled in building and maintaining robust, high-performance cloud-based solutions."
           />
         </div>
+        <div className="input-form">
+          <legend>fill out</legend>
+          <form action="">
+            <label htmlFor="name">name</label>
+            <input type="text" placeholder="John Doe" />
+            <label htmlFor="email">email</label>
+            <input type="text" placeholder="johndoe@example.com" />
+            <label htmlFor="course">course</label>
+            <input type="text" placeholder="software engineering" />
+            <label htmlFor="studyyear">year of study</label>
+            <input type="text" placeholder="3" />
+            <div className="divdrop">
+              <label htmlFor="dropdown">select your track:</label>
+              <select name="" id="">
+                <option value="">Select a track to major in</option>
+                <option value="option1">cyber security</option>
+                <option value="option2">web development</option>
+                <option value="option3">ui/ux design</option>
+                <option value="option4">mobile app developmet</option>
+                <option value="option5">cloud engineering</option>
+                <option value="option6">power platform</option>
+              </select>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   );

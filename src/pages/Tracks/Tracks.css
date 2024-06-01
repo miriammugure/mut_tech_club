@@ -1,6 +1,7 @@
 .containerTrack {
   min-height: 100vh;
   border: 2px solid black;
+  gap: 2rem;
   padding: 2rem;
 }
 .trackContainerBox {
@@ -89,4 +90,53 @@
   font-weight: 500;
   font-family: var(--primary-font);
   padding: 1rem;
+}
+.input-form {
+  width: 50%;
+  margin: 1rem;
+  min-height: 36rem;
+  border: 2px solid black;
+  box-shadow: -7px 10px 14px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -7px 10px 14px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -7px 10px 14px -1px rgba(0, 0, 0, 0.75);
+}
+legend {
+  text-transform: capitalize;
+  font-family: var(--primary-font);
+  font-size: 2rem;
+  padding-inline: 2rem;
+  padding-top: 1rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  /* width: 50%; */
+  padding: 2rem;
+  /* align-items: center; */
+  justify-content: center;
+}
+label {
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+input {
+  height: 2rem;
+  transition: all 0.4s ease;
+  padding: 1rem;
+  margin: 1rem 0rem;
+  text-transform: capitalize;
+}
+
+input:hover {
+  border: none;
+  border-bottom: 2px solid black;
+}
+.divdrop {
+  display: flex;
+  flex-direction: column;
+}
+option {
+  height: 2rem;
 }
