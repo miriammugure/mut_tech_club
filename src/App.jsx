@@ -6,7 +6,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home/Home";
 import Leadership from "./pages/Leadership/Leadership";
-import Tracks from "./pages/Tracks/Tracks";
+import TrackMain from "./pages/Tracks/TrackMain";
 import Events from "./pages/Events/Events";
 function App() {
   return (
@@ -15,10 +15,10 @@ function App() {
         <BrowserRouter>
           <Header />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/leadership" element={<Leadership />} />
-            <Route path="/" element={<Tracks />} />
-            <Route path="/" element={<Events />} />
+            <Route path="/tracks" element={<TrackMain />} />
+            <Route path="/events" element={<Events />} />
           </Routes>
           <Footer />
         </BrowserRouter>

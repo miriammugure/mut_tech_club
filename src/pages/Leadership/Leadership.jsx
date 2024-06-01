@@ -1,5 +1,5 @@
 import React from "react";
-import Leaders from "./Leaders";
+import Leaders from "../Leadership/Leaders";
 
 function Leadership() {
   return (

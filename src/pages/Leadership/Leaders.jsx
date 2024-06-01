@@ -7,7 +7,7 @@ import allanImg from "../../assets/allan.jpg";
 import bridgetImg from "../../assets/bridget.jpg";
 import ruthImg from "../../assets/ruth.jpeg";
 import websterImg from "../../assets/webster.jpg";
-import manaseImg from "../../assets/manase.jpg";
+import manaseImg from "../../assets/manase.jpeg";
 import shiroImg from "../../assets/shiro.jpeg";
 import stanleyImg from "../../assets/stanley.jpg";
 import paulImg from "../../assets/paul.jpg";
