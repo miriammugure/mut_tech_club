@@ -60,8 +60,8 @@
   background-color: var(--background-color);
 }
 .imageWrapper {
-  width: 10rem;
-  height: 10rem;
+  width: 15rem;
+  height: 15rem;
   /* border: 2px solid black; */
   /* margin-top: -8rem; */
 }

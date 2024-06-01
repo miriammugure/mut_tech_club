@@ -1,6 +1,6 @@
 .containerTrack {
   min-height: 100vh;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   gap: 2rem;
   padding: 2rem;
 }
@@ -13,7 +13,7 @@
   justify-content: space-evenly;
   align-items: center;
   /* flex-wrap: wrap; */
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .trackTitle {
   display: flex;
