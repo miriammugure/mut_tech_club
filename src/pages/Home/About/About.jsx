@@ -10,9 +10,27 @@ function About() {
         <h2>about</h2>
       </div>
       <section className="container-about">
-        <Box icon={<GiDart/>}value={"mission"}text={"The MUT Tech Club empowers students through innovative technology, collaborative projects, and skill-building workshops for future readiness."} />
-        <Box icon={<FaEye/>}value={"vision"}text={"The MUT Tech Club envisions a future led by innovative, tech-savvy, and socially responsible students."} />
-        <Box icon={<FaHandHoldingHeart/>}value={"values"}text={"The MUT Tech Club values innovation, collaboration, inclusivity, continuous learning, and ethical technology use for societal benefit."} />
+        <Box
+          icon={<GiDart />}
+          value={"mission"}
+          text={
+            "The MUT Tech Club empowers students through innovative technology, collaborative projects, and skill-building workshops for future readiness."
+          }
+        />
+        <Box
+          icon={<FaEye />}
+          value={"vision"}
+          text={
+            "The MUT Tech Club envisions a future led by innovative, tech-savvy, and socially responsible students."
+          }
+        />
+        <Box
+          icon={<FaHandHoldingHeart />}
+          value={"values"}
+          text={
+            "The MUT Tech Club values innovation, collaboration, inclusivity, continuous learning, and ethical technology use for societal benefit."
+          }
+        />
       </section>
     </div>
   );
