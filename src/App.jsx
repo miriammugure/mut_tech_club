@@ -1,7 +1,6 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
@@ -17,7 +16,7 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/" element={<Leadership />} />
+            <Route path="/leadership" element={<Leadership />} />
             <Route path="/" element={<Tracks />} />
             <Route path="/" element={<Events />} />
           </Routes>
