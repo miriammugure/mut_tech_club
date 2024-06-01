@@ -1,6 +1,6 @@
 .hero-container {
   padding-top: 9rem;
-  border: 2px solid red;
+
   width: 100vw;
   min-height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
@@ -14,7 +14,7 @@
 }
 .text-box {
   background-color: var(--background-color);
-  border: 2px solid yellow;
+
   width: 40rem;
   min-height: 30rem;
   padding: 2rem;
@@ -27,7 +27,6 @@
   gap: 2rem;
 }
 .title {
-  border: 2px solid black;
   text-transform: capitalize;
   font-size: 2rem;
   text-align: center;
