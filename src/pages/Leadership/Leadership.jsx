@@ -1,11 +1,7 @@
-import React from 'react'
-import"./Leadership.css"
+import React from "react";
+import "./Leadership.css";
 function Leadership() {
-  return (
-    <div>
-      
-    </div>
-  )
+  return <div></div>;
 }
 
-export default Leadership
+export default Leadership;

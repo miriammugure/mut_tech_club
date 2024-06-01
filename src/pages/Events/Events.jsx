@@ -1,12 +1,8 @@
-import React from 'react'
-import"./Events.css"
+import React from "react";
+import "./Events.css";
 
 function Events() {
-  return (
-    <div>
-      
-    </div>
-  )
+  return <div></div>;
 }
 
-export default Events
+export default Events;

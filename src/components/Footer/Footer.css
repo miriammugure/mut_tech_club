@@ -1,11 +1,11 @@
-.footer-container{
-    border: 2px solid green;
-    /* background-color: var(--primary-color); */
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1rem;
-    font-family: var(--primary-font);
-    text-transform: uppercase;
+.footer-container {
+  border: 2px solid green;
+  /* background-color: var(--primary-color); */
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-family: var(--primary-font);
+  text-transform: uppercase;
 }

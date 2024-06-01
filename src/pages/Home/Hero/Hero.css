@@ -1,53 +1,52 @@
-.hero-container{
-    border: 2px solid red;
-    width: 100vw;
-    min-height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url(/src/assets/hero.jpg);
-    background-position:center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.hero-container {
+  border: 2px solid red;
+  width: 100vw;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(/src/assets/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.text-box{
-    background-color: var(--background-color);
-    border: 2px solid yellow;
-    width: 40rem;
-    min-height: 30rem;
-    padding: 2rem;
-    box-shadow: -4px 10px 5px 2px rgba(0,0,0,0.75);
--webkit-box-shadow: -4px 10px 5px 2px rgba(0,0,0,0.75);
--moz-box-shadow: -4px 10px 5px 2px rgba(0,0,0,0.75);
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 2rem;
+.text-box {
+  background-color: var(--background-color);
+  border: 2px solid yellow;
+  width: 40rem;
+  min-height: 30rem;
+  padding: 2rem;
+  box-shadow: -4px 10px 5px 2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -4px 10px 5px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -4px 10px 5px 2px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 }
-.title{
-    border: 2px solid black;
-    text-transform: capitalize;
-    font-size: 2rem;
-    text-align: center;
-    font-family: var(--secondary-font);
+.title {
+  border: 2px solid black;
+  text-transform: capitalize;
+  font-size: 2rem;
+  text-align: center;
+  font-family: var(--secondary-font);
 }
-.description{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.top-part{
-    font-size: 2rem;
-    font-family: var(--secondary-font);
-    
+.top-part {
+  font-size: 2rem;
+  font-family: var(--secondary-font);
 }
-.middle{
-font-family: var(--primary-font);
-font-size: 2rem;
-
+.middle {
+  font-family: var(--primary-font);
+  font-size: 2rem;
 }
-.text{
-    font-family: var(--primary-font);
-    font-size: 1.2rem;
+.text {
+  font-family: var(--primary-font);
+  font-size: 1.2rem;
 }

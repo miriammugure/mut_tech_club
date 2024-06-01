@@ -1,19 +1,21 @@
-import React from 'react'
-import "./About.css"
+import React from "react";
+import { GiDart } from "react-icons/gi";
+import { FaEye, FaHandHoldingHeart } from "react-icons/fa";
+import Box from "./Box";
+import "./About.css";
 function About() {
   return (
-    <div>
-      <div className="container-box">
-        <div className="box">
-          <div className="icon-wrapper"></div>
-          <div className="text">
-            <div className="main">mission</div>
-            <div className="sub">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident officia minus facilis veritatis amet tempore?</div>
-          </div>
-        </div>
+    <div className="about">
+      <div className="box-title">
+        <h2>about</h2>
       </div>
+      <section className="container-about">
+        <Box icon={<GiDart/>}value={"mission"}text={"The MUT Tech Club empowers students through innovative technology, collaborative projects, and skill-building workshops for future readiness."} />
+        <Box icon={<FaEye/>}value={"vision"}text={"The MUT Tech Club envisions a future led by innovative, tech-savvy, and socially responsible students."} />
+        <Box icon={<FaHandHoldingHeart/>}value={"values"}text={"The MUT Tech Club values innovation, collaboration, inclusivity, continuous learning, and ethical technology use for societal benefit."} />
+      </section>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;
