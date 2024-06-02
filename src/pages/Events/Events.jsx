@@ -49,7 +49,7 @@ function Events() {
           timeIcon={<IoMdTime />}
           time={"friday-(3:00 pm-6:00pm)"}
           locationIcon={<IoLocationSharp />}
-          locationName={" computerlab F04"}
+          locationName={"computer lab F04"}
         />
         <Meetings
           eventLeader={"evyonn mbithe"}
@@ -57,7 +57,7 @@ function Events() {
           timeIcon={<IoMdTime />}
           time={"saturday-(1:00 pm-4:00pm)"}
           locationIcon={<IoLocationSharp />}
-          locationName={" computerlab F04"}
+          locationName={"computer lab F04"}
         />
       </div>
     </div>
