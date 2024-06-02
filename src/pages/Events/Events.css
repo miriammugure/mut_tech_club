@@ -1,6 +1,5 @@
 .eventContainer {
   min-height: 100vh;
-  border: 2px solid black;
   gap: 2rem;
   padding: 2rem;
 }

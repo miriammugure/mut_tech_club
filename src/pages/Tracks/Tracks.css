@@ -1,6 +1,5 @@
 .containerTrack {
   min-height: 100vh;
-  /* border: 2px solid black; */
   gap: 2rem;
   padding: 2rem;
 }
@@ -12,8 +11,6 @@
   gap: 1rem;
   justify-content: space-evenly;
   align-items: center;
-  /* flex-wrap: wrap; */
-  /* border: 2px solid red; */
 }
 .trackTitle {
   display: flex;
@@ -43,7 +40,6 @@
 
 .trackBox {
   min-height: 20rem;
-  /* width: 25rem; */
   display: flex;
   margin-block: 45px;
   flex-direction: column;
@@ -59,7 +55,6 @@
   width: 10rem;
   height: 10rem;
   margin-top: -50px;
-  /* border: 2px solid black; */
 }
 .TrackImg img {
   width: 100%;
@@ -69,8 +64,6 @@
   object-fit: cover;
 }
 .trackBody {
-  /* border: 2px solid blue; */
-  /* max-width: 30rem; */
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -110,9 +103,7 @@ legend {
 form {
   display: flex;
   flex-direction: column;
-  /* width: 50%; */
   padding: 2rem;
-  /* align-items: center; */
   justify-content: center;
 }
 label {

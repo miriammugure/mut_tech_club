@@ -76,7 +76,6 @@
 }
 .pictureWrapper {
   height: 20rem;
-  /* border: 2px solid black; */
   position: relative;
   overflow: hidden;
 }
@@ -129,7 +128,6 @@
   font-family: var(--primary-font);
   letter-spacing: 1.6px;
   color: var(--secondary-color);
-  /* border: 2px solid red; */
 }
 .memberBiograpghy {
   text-align: center;

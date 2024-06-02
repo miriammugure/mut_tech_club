@@ -6,7 +6,6 @@
 }
 .box-title {
   margin-top: 2rem;
-  /* border: 2px solid black; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +16,6 @@
 }
 .container-about {
   min-height: 80vh;
-  /* background-color:var(--secondary-color); */
   gap: 2rem;
   padding: 2rem;
   display: grid;
@@ -30,8 +28,6 @@
   display: flex;
   background-color: var(--primary-color);
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
   border: 2px solid black;
   min-width: 40%;
   min-height: 20rem;
@@ -52,7 +48,6 @@
   }
 }
 .iconWrapper {
-  /* border: 2px solid red; */
   min-height: 2rem;
   display: flex;
   align-items: center;
@@ -72,12 +67,10 @@
   font-size: 2rem;
   text-transform: capitalize;
   text-align: center;
-  /* border: 2px solid black; */
 }
 .valueBodyText {
   font-family: var(--primary-font);
   font-size: 1.5rem;
   text-transform: capitalize;
   text-align: center;
-  /* border: 2px solid red; */
 }

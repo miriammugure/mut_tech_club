@@ -1,6 +1,5 @@
 .testimonials {
   min-height: 100vh;
-  border: 2px solid black;
   display: flex;
   flex-direction: column;
   padding: 2rem;
@@ -17,7 +16,6 @@
 }
 .container-testimonials {
   min-height: 80vh;
-  /* background-color:var(--secondary-color); */
   gap: 2rem;
   padding: 2rem;
   display: grid;
@@ -62,8 +60,6 @@
 .imageWrapper {
   width: 15rem;
   height: 15rem;
-  /* border: 2px solid black; */
-  /* margin-top: -8rem; */
 }
 .imageWrapper img {
   width: 100%;
@@ -75,7 +71,6 @@
 .cardBody {
   display: flex;
   flex-direction: column;
-  /* border: 2px solid green; */
 }
 .cardBodyMain {
   font-family: var(--primary-font);
