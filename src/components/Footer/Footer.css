@@ -6,4 +6,6 @@
   font-size: 1rem;
   font-family: var(--primary-font);
   text-transform: uppercase;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }

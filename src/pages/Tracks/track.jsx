@@ -15,4 +15,5 @@ const Track = ({ trackImg, trackName, trackDescription }) => {
     </div>
   );
 };
+
 export default Track;

@@ -2,6 +2,10 @@
   min-height: 100vh;
   gap: 2rem;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .trackContainerBox {
   min-width: 100%;
@@ -84,9 +88,9 @@
   font-family: var(--primary-font);
   padding: 1rem;
 }
+
 .input-form {
   width: 50%;
-  margin: 1rem;
   min-height: 36rem;
   border: 2px solid black;
   box-shadow: -7px 10px 14px -1px rgba(0, 0, 0, 0.75);

@@ -15,6 +15,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   font-family: var(--secondary-font);
   font-size: 2rem;
   text-transform: capitalize;
@@ -57,7 +58,8 @@
 }
 .eventBox {
   display: flex;
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -74,8 +76,8 @@
 }
 .eventBox:hover {
   transform: translateY(2px);
-  background-color: #ece8e8;
-  color: #000;
+  background-color: #010101;
+  color: var(--primary-color);
 }
 .lName {
   display: flex;
@@ -98,7 +100,7 @@
 }
 .event svg {
   font-size: 3rem;
-  fill: #000;
+  fill: var(--primary-color);
   font-weight: bold;
 }
 .event p {
@@ -115,7 +117,7 @@
 }
 .location svg {
   font-size: 3rem;
-  fill: #000;
+  fill: var(--primary-color);
   font-weight: bold;
 }
 .location p {

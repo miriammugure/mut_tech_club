@@ -1,11 +1,9 @@
 .container {
   display: flex;
-  min-width: 100vw;
+  /* min-width: 100vw; */
   justify-content: space-around;
   align-items: center;
   background-color: var(--primary-color);
-  position: fixed;
-  z-index: 100;
   padding: 1rem;
 }
 .logo {
@@ -22,7 +20,6 @@
   padding: 1rem;
 }
 .nav-list {
-  min-width: 100%;
   display: flex;
   list-style: none;
   gap: 4rem;
@@ -46,106 +43,23 @@
   color: var(--background-color);
 }
 
-@media screen and (max-width: 450px) {
-  .nav-list {
-    gap: 0.5rem;
-    min-width: 100vw;
-  }
-  .links {
-    font-size: 1rem;
-    padding: 1rem 0.5em 1rem 0.5rem;
-  }
-  .logo {
-    font-size: 1rem;
-  }
-}
-@media screen and (max-width: 412px) {
-  .nav {
-    width: 100vw;
-    font-size: 0.5rem;
-  }
-  .nav-list {
-    gap: 0.5rem;
-    min-width: 100%;
-  }
-  .logo {
-    font-size: 1rem;
-  }
-}
-@media screen and (max-width: 400px) {
-  .nav {
-    width: 100vw;
-    font-size: 0.5rem;
-  }
-  .nav-list {
-    gap: 0.5rem;
-    flex-wrap: wrap;
-  }
-  .logo {
-    font-size: 1rem;
-  }
-}
-@media screen and (max-width: 545) {
-  .nav {
-    width: 100vw;
-  }
-  .nav-list {
-    min-width: 100%;
-    gap: 0.5px;
-  }
-}
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 653px) {
   .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
-  .logo {
-    text-align: center;
-  }
-  .nav {
-    width: 100vw;
-  }
-  .nav-list {
+}
+@media screen and (max-width: 504px) {
+  .container {
     width: 100%;
     display: flex;
-    justify-content: space-around;
-  }
-}
-@media screen and (max-width: 830px) {
-  .container {
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
   .logo {
-    text-align: center;
-  }
-  .nav-list {
-    display: flex;
-    justify-content: space-around;
-  }
-  .links {
-    font-size: 2rem;
-  }
-}
-@media screen and (max-width: 700px) {
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .logo {
-    text-align: center;
-  }
-  .nav-list {
-    display: flex;
-    justify-content: space-around;
-  }
-  .links {
     font-size: 1rem;
+  }
+  .nav-list {
+    display: grid;
+    grid-template-columns: auto auto;
   }
 }

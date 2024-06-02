@@ -7,6 +7,7 @@ import uiuxImg from "../../assets/uiux.jpeg";
 import mobileImg from "../../assets/mobile.jpg";
 import cloudImg from "../../assets/cloud.jpg";
 import powerImg from "../../assets/powerplatform.jpg";
+
 function Tracks() {
   return (
     <div>
@@ -47,7 +48,7 @@ function Tracks() {
           />
         </div>
         <div className="input-form">
-          <legend>fill out</legend>
+          <legend>fill out this form:</legend>
           <form action="">
             <label htmlFor="name">name</label>
             <input type="text" placeholder="John Doe" />
