@@ -3,12 +3,11 @@ import { GiDart } from "react-icons/gi";
 import { FaEye, FaHandHoldingHeart } from "react-icons/fa";
 import Box from "./Box";
 import "./About.css";
+import Title from "../../../components/Title/Title";
 function About() {
   return (
     <div className="about">
-      <div className="box-title">
-        <h2>about</h2>
-      </div>
+       < Title titleName={"about"}/>
       <section className="container-about">
         <Box
           icon={<GiDart />}

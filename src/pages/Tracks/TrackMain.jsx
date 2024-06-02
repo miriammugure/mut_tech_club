@@ -1,5 +1,5 @@
 import React from "react";
-import Tracks from "./Tracks";
+import Tracks from "./TracksBox/Tracks";
 function TrackMain() {
   return (
     <div>

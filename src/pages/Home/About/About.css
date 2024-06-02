@@ -2,17 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--secondary-color);
-}
-.box-title {
-  margin-top: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-transform: capitalize;
-  font-size: 2rem;
-  color: var(--primary-color);
-  font-family: var(--secondary-font);
+  /* background-color: var(--secondary-color); */
 }
 .container-about {
   min-height: 80vh;

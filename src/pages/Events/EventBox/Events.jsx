@@ -3,13 +3,12 @@ import Meetings from "./Meetings";
 import "./Events.css";
 import { IoLocationSharp } from "react-icons/io5";
 import { IoMdTime } from "react-icons/io";
+import Title from "../../../components/Title/Title";
 
 function Events() {
   return (
     <div className="eventContainer">
-      <div className="eventTitle">
-        <h2>weekly events</h2>
-      </div>
+     < Title titleName={"events"}/>
       <div className="eventBoxContainer">
         <Meetings
           eventLeader={"webster ifedha"}

@@ -1,0 +1,11 @@
+.titleContainer{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: var(--secondary-font);
+  font-size: 2rem;
+  text-transform: capitalize;
+  padding: 0.5rem;
+  
+}

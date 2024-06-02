@@ -1,6 +1,7 @@
 import React from "react";
 import "./Tracks.css";
 import Track from "./track";
+import Title from "../../../components/Title/Title";
 import cyberImg from "../../assets/cybersec.jpg";
 import webImg from "../../assets/web.jpg";
 import uiuxImg from "../../assets/uiux.jpeg";
@@ -12,9 +13,7 @@ function Tracks() {
   return (
     <div>
       <div className="containerTrack">
-        <div className="trackTitle">
-          <h2>tracks</h2>
-        </div>
+        <Title titleName={"tracks"}/>
         <div className="trackContainerBox">
           <Track
             trackImg={cyberImg}

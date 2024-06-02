@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./Cards";
+import Title from "../../../components/Title/Title";
 import "./Testimonials.css";
 import miriamImg from "../../../assets/miriam.jpeg";
 import kiamaImg from "../../../assets/kiama.jpeg";
@@ -7,9 +8,7 @@ import katamiiImg from "../../../assets/katamii .jpeg";
 function Testimonials() {
   return (
     <div className="testimonials">
-      <div className="card-title">
-        <h2>testimonials</h2>
-      </div>
+      <Title titleName={"testimonials"}/>
       <section className="container-testimonials">
         <Card
           image={miriamImg}

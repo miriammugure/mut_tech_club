@@ -16,15 +16,6 @@
   justify-content: space-evenly;
   align-items: center;
 }
-.trackTitle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--secondary-font);
-  font-size: 2rem;
-  text-transform: capitalize;
-  padding: 0.5rem;
-}
 
 @media screen and (max-width: 924px) {
   .trackContainerBox {
@@ -36,7 +27,7 @@
   }
 }
 @media screen and (max-width: 600px) {
-  .trackTitle {
+  .titleName {
     font-size: 1rem;
   }
   .trackContainerBox {
@@ -140,4 +131,5 @@ input:hover {
 }
 option {
   height: 2rem;
+  text-transform: capitalize;
 }

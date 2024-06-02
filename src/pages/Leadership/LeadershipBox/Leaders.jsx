@@ -1,6 +1,7 @@
 import React from "react";
 import "./Leadership.css";
 import Member from "./Member";
+import Title from "../../../components/Title/Title";
 import ndiaImg from "../../assets/ndia.jpg";
 import victorineImg from "../../assets/victorine.jpg";
 import allanImg from "../../assets/allan.jpg";
@@ -16,9 +17,7 @@ function Leaders() {
   return (
     <div>
       <div className="leadershipContainer">
-        <div className="leadershipTitle">
-          <h2>mut tech club leaders</h2>
-        </div>
+       < Title titleName={"mut tech club leaders"}/>
         <div className="membersContainer">
           <Member
             picture={ndiaImg}
