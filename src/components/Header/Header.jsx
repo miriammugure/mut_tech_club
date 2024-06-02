@@ -12,7 +12,7 @@ function Header() {
         <div className="nav">
           <ol className="nav-list">
             <li className="nav-link">
-              <Link to="../../Home" className="links" target="blank">
+              <Link to="/" className="links" target="blank">
                 home
               </Link>
             </li>
