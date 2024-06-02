@@ -69,6 +69,7 @@ function Tracks() {
                 <option value="option6">power platform</option>
               </select>
             </div>
+            <button type="submit" className="btnSubmit">submit</button>
           </form>
         </div>
       </div>
