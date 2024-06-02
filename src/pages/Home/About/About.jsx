@@ -7,7 +7,7 @@ import Title from "../../../components/Title/Title";
 function About() {
   return (
     <div className="about">
-       < Title titleName={"about"}/>
+      <Title titleName={"about"} />
       <section className="container-about">
         <Box
           icon={<GiDart />}

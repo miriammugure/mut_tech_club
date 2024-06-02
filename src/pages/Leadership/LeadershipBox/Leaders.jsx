@@ -2,22 +2,22 @@ import React from "react";
 import "./Leadership.css";
 import Member from "./Member";
 import Title from "../../../components/Title/Title";
-import ndiaImg from "../../assets/ndia.jpg";
-import victorineImg from "../../assets/victorine.jpg";
-import allanImg from "../../assets/allan.jpg";
-import bridgetImg from "../../assets/bridget.jpg";
-import ruthImg from "../../assets/ruth.jpeg";
-import websterImg from "../../assets/webster.jpg";
-import manaseImg from "../../assets/manase.jpeg";
-import shiroImg from "../../assets/shiro.jpeg";
-import stanleyImg from "../../assets/stanley.jpg";
-import paulImg from "../../assets/paul.jpg";
-import evyonnImg from "../../assets/evyonn.jpeg";
+import ndiaImg from "../../../assets/ndia.jpg";
+import victorineImg from "../../../assets/victorine.jpg";
+import allanImg from "../../../assets/allan.jpg";
+import bridgetImg from "../../../assets/bridget.jpg";
+import ruthImg from "../../../assets/ruth.jpeg";
+import websterImg from "../../../assets/webster.jpg";
+import manaseImg from "../../../assets/manase.jpeg";
+import shiroImg from "../../../assets/shiro.jpeg";
+import stanleyImg from "../../../assets/stanley.jpg";
+import paulImg from "../../../assets/paul.jpg";
+import evyonnImg from "../../../assets/evyonn.jpeg";
 function Leaders() {
   return (
     <div>
       <div className="leadershipContainer">
-       < Title titleName={"mut tech club leaders"}/>
+        <Title titleName={"mut tech club leaders"} />
         <div className="membersContainer">
           <Member
             picture={ndiaImg}

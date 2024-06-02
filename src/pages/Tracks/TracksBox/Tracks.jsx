@@ -2,18 +2,18 @@ import React from "react";
 import "./Tracks.css";
 import Track from "./track";
 import Title from "../../../components/Title/Title";
-import cyberImg from "../../assets/cybersec.jpg";
-import webImg from "../../assets/web.jpg";
-import uiuxImg from "../../assets/uiux.jpeg";
-import mobileImg from "../../assets/mobile.jpg";
-import cloudImg from "../../assets/cloud.jpg";
-import powerImg from "../../assets/powerplatform.jpg";
+import cyberImg from "../../../assets/cybersec.jpg";
+import webImg from "../../../assets/web.jpg";
+import uiuxImg from "../../../assets/uiux.jpeg";
+import mobileImg from "../../../assets/mobile.jpg";
+import cloudImg from "../../../assets/cloud.jpg";
+import powerImg from "../../../assets/powerplatform.jpg";
 
 function Tracks() {
   return (
     <div>
       <div className="containerTrack">
-        <Title titleName={"tracks"}/>
+        <Title titleName={"tracks"} />
         <div className="trackContainerBox">
           <Track
             trackImg={cyberImg}

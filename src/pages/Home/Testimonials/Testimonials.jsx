@@ -8,7 +8,7 @@ import katamiiImg from "../../../assets/katamii .jpeg";
 function Testimonials() {
   return (
     <div className="testimonials">
-      <Title titleName={"testimonials"}/>
+      <Title titleName={"testimonials"} />
       <section className="container-testimonials">
         <Card
           image={miriamImg}

@@ -1,0 +1,15 @@
+.IconBox {
+  display: flex;
+  gap: 2rem;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.IconBox svg {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  /* border: 2px solid green; */
+  fill: var(--primary-color);
+}

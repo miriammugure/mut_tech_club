@@ -8,7 +8,7 @@ import Title from "../../../components/Title/Title";
 function Events() {
   return (
     <div className="eventContainer">
-     < Title titleName={"events"}/>
+      <Title titleName={"events"} />
       <div className="eventBoxContainer">
         <Meetings
           eventLeader={"webster ifedha"}

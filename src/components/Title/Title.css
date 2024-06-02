@@ -1,5 +1,5 @@
-.titleContainer{
-    display: flex;
+.titleContainer {
+  display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -7,5 +7,4 @@
   font-size: 2rem;
   text-transform: capitalize;
   padding: 0.5rem;
-  
 }
