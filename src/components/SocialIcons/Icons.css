@@ -10,6 +10,11 @@
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
+  border: none;
   /* border: 2px solid green; */
   fill: var(--primary-color);
+}
+.IconBox svg:hover{
+  border: 2px solid var(--primary-color);
+  
 }

@@ -24,7 +24,6 @@ function Leaders() {
             linkedInUrl="linkedin.com"
             twitterUrl="twitter.com"
             fbUrl="facebook.com"
-            IgUrl="instagram.com"
             fullname="Dr. john ndia"
             roles="patron"
             biographies=" lorem lorem lorem lorem loremlorem lorem lorem lorem lorem lorem lorem lorem lorem lorem"
@@ -43,8 +42,6 @@ function Leaders() {
             picture={allanImg}
             linkedInUrl="linkedin.com"
             twitterUrl="twitter.com"
-            fbUrl="facebook.com"
-            IgUrl="instagram.com"
             fullname="allan muhari"
             roles="vice chairperson"
             biographies=" lorem lorem lorem lorem loremlorem lorem lorem lorem lorem lorem lorem lorem lorem lorem"
@@ -53,8 +50,6 @@ function Leaders() {
             picture={bridgetImg}
             linkedInUrl="linkedin.com"
             twitterUrl="twitter.com"
-            fbUrl="facebook.com"
-            IgUrl="instagram.com"
             fullname="bridget gitonga"
             roles="secretary"
             biographies=" lorem lorem lorem lorem loremlorem lorem lorem lorem lorem lorem lorem lorem lorem lorem"
@@ -62,8 +57,6 @@ function Leaders() {
           <Member
             picture={ruthImg}
             linkedInUrl="linkedin.com"
-            twitterUrl="twitter.com"
-            fbUrl="facebook.com"
             IgUrl="instagram.com"
             fullname="ruth mutisya"
             roles="treasurer"
@@ -103,7 +96,6 @@ function Leaders() {
             picture={stanleyImg}
             linkedInUrl="linkedin.com"
             twitterUrl="twitter.com"
-            fbUrl="facebook.com"
             IgUrl="instagram.com"
             fullname="stanley amunze"
             roles="mobile application lead"
